@@ -12,17 +12,17 @@ public class StackPostfix_2511533017 {
 				s_3017.push(input_3017.nextInt());
 			} else {
 				String operator = input_3017.next();
-				int operand2 = s_3017.pop();
-				int operand1 = s_3017.pop();
+				int operand2_3017 = s_3017.pop();
+				int operand1_3017 = s_3017.pop();
 
 				if (operator.equals("+")) {
-					s_3017.push(operand1 + operand2);
+					s_3017.push(operand1_3017 + operand2_3017);
 				} else if (operator.equals("-")) {
-					s_3017.push(operand1 - operand2);
+					s_3017.push(operand1_3017 - operand2_3017);
 				} else if (operator.equals("*")) {
-					s_3017.push(operand1 * operand2);
+					s_3017.push(operand1_3017 * operand2_3017);
 				} else {
-					s_3017.push(operand1 / operand2);
+					s_3017.push(operand1_3017 / operand2_3017);
 				}
 			}
 		}

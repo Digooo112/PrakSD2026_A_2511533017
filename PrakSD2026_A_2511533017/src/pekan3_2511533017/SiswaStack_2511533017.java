@@ -51,23 +51,23 @@ public class SiswaStack_2511533017 {
 		}
 	}
 	public static void main (String [] args) {
-		SiswaStack_2511533017 studentStack = new SiswaStack_2511533017();
+		SiswaStack_2511533017 studentStack_3017 = new SiswaStack_2511533017();
 		
 		Siswa_3017 mhs1_3017 = new Siswa_3017("Ali", 1);
 		Siswa_3017 mhs2_3017 = new Siswa_3017("Boby", 2);
 		Siswa_3017 mhs3_3017 = new Siswa_3017("Charles", 3);
 		
-		studentStack.push(mhs1_3017);
-		studentStack.push(mhs2_3017);
-		studentStack.push(mhs3_3017);
+		studentStack_3017.push(mhs1_3017);
+		studentStack_3017.push(mhs2_3017);
+		studentStack_3017.push(mhs3_3017);
 		
 		System.out.println("siswa di dalam stack:");
-		studentStack.tampilkanSiswa_3017();
+		studentStack_3017.tampilkanSiswa_3017();
 		
-		System.out.println("siswa teratas " + studentStack.peek_3017());
-		System.out.println("mengeluarkan siswa teratas dari stack: " + studentStack.pop_3017());
+		System.out.println("siswa teratas " + studentStack_3017.peek_3017());
+		System.out.println("mengeluarkan siswa teratas dari stack: " + studentStack_3017.pop_3017());
 		System.out.println("daftar siswa setelah di pop :");
-		studentStack.tampilkanSiswa_3017();
+		studentStack_3017.tampilkanSiswa_3017();
 		
 		
 		
